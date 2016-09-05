@@ -20,6 +20,7 @@ h2{
 	text-align: center;
 	color: black
 }
+
 #rowrow{
 	color: #FFFFFF;
 	margin-top: 25px;
@@ -72,6 +73,10 @@ h3{
 	color: white;
 }
 @media(min-width: 1200px){
+	.row {
+		max-width: 750px;
+		margin-left : 200px;
+}
 
 }
 
@@ -96,13 +101,17 @@ h3{
  #rowrow{
  	max-width: 500px;
  	margin-left: 10%;
+	margin-right: 10%;
  }
   #rowrow1{
  	max-width: 500px;
  	margin-left: 10%;
+	margin-right: 10%;
  }
   #rowrow2{
  	max-width: 500px;
  	margin-left: 10%;
- }
+	margin-right: 10%;
+ }*/
+
 }
