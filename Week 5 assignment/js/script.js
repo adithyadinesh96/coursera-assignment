@@ -24,9 +24,9 @@ var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
-var insertHtml = function (selector, html) {
+var insertHtml = function (selector,html) {
   var targetElem = document.querySelector(selector);
-  targetElem.innerHTML = html;
+  targetElem.innerHTML =html;
 };
 
 // Show loading icon inside element identified by 'selector'.
@@ -95,7 +95,7 @@ function buildAndShowHomeHTML (categories) {
   // Load home snippet page
   $ajaxUtils.sendGetRequest(
     homeHtmlUrl,
-    function (homeHtml) {
+    function (homeHtmlUrls) {
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
